@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+    height: 100%;
+    width: 100%;
+}
+.login-page{
+    width: 300px;
+    box-shadow: 3px 3px 10px 0 purple;
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    border-radius: 20px;
+    text-align: center;
+}
+.login-page h1{
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 6px;
+    margin: 6px 0;
+    width: 100%;
+    border: 1px solid dodgerblue;
+}
+button{
+    color: dodgerblue;
+    width: 75%;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 6px ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: dodgerblue;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 120px;
+    margin: -19px auto 10px;
+}
+img{
+    width: 70px;
+    margin-top: -50px;
+    border-radius: 20px;
+}
+p a{
+    text-align: left;
+}
+.login{
+    width: 10%;
+}
+.login img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+    margin-left: -6px;
+}
+.input-box:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 10px 0 dodgerblue;
+    color: dodgerblue;
+}
+.dont{
+    text-align: center;
+}
